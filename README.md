@@ -156,6 +156,7 @@ PC1 → PC2
 👉 Doit fonctionner
 
 * * Copie d'écran ici * *  
+<img width="823" height="424" alt="image" src="https://github.com/user-attachments/assets/d9d7bded-f039-4dca-a130-785b55fc4e65" />
 
 ---
 
@@ -164,15 +165,20 @@ PC1 → PC3
 👉 Fonctionne uniquement grâce au routeur
 
 * * Copie d'écran ici * *  
-  
+  <img width="870" height="960" alt="image" src="https://github.com/user-attachments/assets/31437378-032b-4674-8310-96791f0e7529" />
+
 ---
 
 # ❓ Questions de réflexion
 
-1. Pourquoi PC1 ne voit-il pas PC3 sans routeur ? -> Répondez directement sur ce Readme.md 
-2. Quel rôle joue le masque /24 ? -> Répondez directement sur ce Readme.md  
-3. Que se passe-t-il si VLAN 10 et VLAN 20 ont le même réseau IP ? -> Répondez directement sur ce Readme.md  
-4. Pourquoi un trunk est-il nécessaire ? -> Répondez directement sur ce Readme.md
+1. Pourquoi PC1 ne voit-il pas PC3 sans routeur ? -> Répondez directement sur ce Readme.md
+   Car les VLAN sont définit par le routeur, c'est lui qui redirige les paquets entre les VLAN
+3. Quel rôle joue le masque /24 ? -> Répondez directement sur ce Readme.md
+   le rôle du masque /24 est d'avoir les 2 vlan dans le meme masque de sous réseau, sans ça ils ne communique pas
+5. Que se passe-t-il si VLAN 10 et VLAN 20 ont le même réseau IP ? -> Répondez directement sur ce Readme.md  
+6. Pourquoi un trunk est-il nécessaire ? -> Répondez directement sur ce Readme.md
+   le trunk est nécessaire afin d'éviter d'avoir a brancher un cable par vlan
+   
 
 ---
 
