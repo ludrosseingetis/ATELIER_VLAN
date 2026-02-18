@@ -191,9 +191,12 @@ Changer VLAN 10 en :
 ```
 
 Questions :
-- Combien d’hôtes max ?  
-- Quelle plage IP valide ?  
+- Combien d’hôtes max ?
+  le nombre d'hotes max est 2 puissance 6 soit 127
+- Quelle plage IP valide ?
+  192.168.10.1-192.168.10.126
 - Peut-on encore communiquer avec VLAN 20 ?
+- non car le masque a changer
 
 ---
 
